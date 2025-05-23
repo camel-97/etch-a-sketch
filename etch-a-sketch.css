@@ -1,0 +1,32 @@
+* {
+    border: solid black;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    width: 100vmin;
+    height: 100vmin;
+    display: flex;
+    justify-self: center;
+    
+}
+
+#gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+
+}
+#gridContainer>div  {
+    flex: 0 0 calc(100% /20);
+    height: calc(100% /20);
+    outline: 1px solid;
+    justify-content: center;
+    align-items: center;
+}
